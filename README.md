@@ -46,7 +46,3 @@ Mesos ships with Zookeeper. Run these commands in different terminal windows to 
     /usr/local/sbin/mesos-master --zk=zk://localhost:2181/mesos
 
     /usr/local/sbin/mesos-slave --master=zk://localhost:2181/mesos
-
-### Add the Mesos JAR to your local Maven Repo
-
-    mvn install:install-file -Dfile=/path/to/incubator-mesos/build/src/mesos-0.13.0.jar -DgroupId=org.apache.mesos -DartifactId=mesos -Dversion=0.13.0 -Dpackaging=jar
