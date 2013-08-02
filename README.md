@@ -6,13 +6,23 @@ and will restart the command if it fails.
 
 ## Prerequisites
 
-### Install Autotools
-
 Mesos uses autotools to build. Install via Homebrew on a Mac:
 
     brew install autoconf automake
 
+### Install Autotools
+
 ### Install Mesos
+
+#### On your Mac
+
+    https://s3.amazonaws.com/mesos-pkg/osx/mesos.rb
+
+#### On your Debian
+
+    https://s3.amazonaws.com/mesos-pkg/ubuntu/12.10/mesos_0.14.0_amd64.deb
+
+#### Manually
 
 The Mesos repo on Github is currently out of sync. You can use the one below for now.
 
